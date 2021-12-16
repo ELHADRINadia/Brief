@@ -1,7 +1,4 @@
-body
-{
-background-image: url(assets/img/pp.jpg);
-}
+
 
 h1{
 	text-align: center;
@@ -25,7 +22,7 @@ h1{
  .grid-item{
  	width: 300px;
  	height: 200px;
- 	background: #333;
+ 	background:#F27F0B;
  	border-radius: 10px;
  	
  }
@@ -37,9 +34,10 @@ h1{
  }
  .griit:hover
  {
-width: 400px;
- 	height:300px;
+width: 150px;
+ 	height:100px;
  	box-shadow: 10px;
  	border-radius: 15px;
  	transform: scale(1.5);
+
  }
