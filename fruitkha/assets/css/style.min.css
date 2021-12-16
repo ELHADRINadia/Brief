@@ -29,13 +29,13 @@ h1{
  	border-radius: 10px;
  	
  }
- img{
+ .griit{
  	width: 300px;
  	height:200px;
  	box-shadow: 10px;
  	border-radius: 10px;
  }
- img:hover
+ .griit:hover
  {
 width: 400px;
  	height:300px;
