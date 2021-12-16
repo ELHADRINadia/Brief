@@ -1,0 +1,45 @@
+body
+{
+background-image: url(assets/img/pp.jpg);
+}
+
+h1{
+	text-align: center;
+	font-size: 40px;
+	font-family: Poppins;
+	margin: 50px 0;
+	color: #F27F0B;
+	
+ }
+ .grille{
+ 	max-width: 1300px;
+ 	width: 80%;
+ 	height: auto;
+ 	margin: 30px auto;
+ 	/*border: 1px solid #333;*/
+ 	display: grid;
+ 	grid-template-columns: repeat(auto-fill,300px);
+ 	justify-content: center;
+ 	grid-gap:50px;
+ }
+ .grid-item{
+ 	width: 300px;
+ 	height: 200px;
+ 	background: #333;
+ 	border-radius: 10px;
+ 	
+ }
+ img{
+ 	width: 300px;
+ 	height:200px;
+ 	box-shadow: 10px;
+ 	border-radius: 10px;
+ }
+ img:hover
+ {
+width: 400px;
+ 	height:300px;
+ 	box-shadow: 10px;
+ 	border-radius: 15px;
+ 	transform: scale(1.5);
+ }
